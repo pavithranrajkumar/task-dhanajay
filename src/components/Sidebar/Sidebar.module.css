@@ -1,0 +1,36 @@
+.Sidebar {
+  height: 100%;
+  width: 6vw;
+  position: fixed;
+  z-index: 1;
+  background: #0e2d61 0% 0% no-repeat padding-box;
+  transition: 0.5s;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+
+.Sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.MenuContainer {
+  display: flex;
+  grid-column-gap: 1vw;
+  align-items: center;
+  height: 5vw;
+
+  width: 100%;
+  font-size: 1vw;
+}
+
+.MenuContainer {
+  color: white;
+}
+
+.MenuIcon {
+  padding: 1vw 1vw 1vw 2vw;
+}
+
+.MenuIcon img {
+  width: 2.5vw;
+}
