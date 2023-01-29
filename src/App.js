@@ -1,5 +1,6 @@
 import './App.css';
-import Sidebar from './components/Sidebar/Sidebar';
+import MainSidebar from './components/MainSidebar/MainSidebar';
+import PayoutsSidebar from './components/PayoutsSidebar/PayoutsSidebar';
 
 /**
  * Key points:
@@ -11,7 +12,8 @@ import Sidebar from './components/Sidebar/Sidebar';
 function App() {
   return (
     <div className='App'>
-      <Sidebar />
+      <MainSidebar />
+      <PayoutsSidebar />
     </div>
   );
 }

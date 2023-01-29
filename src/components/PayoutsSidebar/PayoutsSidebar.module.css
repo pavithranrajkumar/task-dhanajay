@@ -1,0 +1,54 @@
+.Sidebar {
+  height: 100%;
+  width: 13.1vw;
+  position: fixed;
+  left: 6vw;
+  background: white 0% 0% no-repeat padding-box;
+  cursor: pointer;
+  color: black;
+  box-shadow: -3px 0 5px 0 #555;
+}
+
+.SidebarContent {
+  padding: 2vw 0vw;
+}
+
+.SidebarTitle {
+  text-align: start;
+  padding: 0vw 1vw;
+  font-size: 1.4vw;
+}
+
+.MenuContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vw;
+  row-gap: 1vw;
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 2vw;
+}
+
+.MenuIcon {
+  padding: 1vw 0vw 1vw 0vw;
+}
+
+.MenuIcon img {
+  width: 1vw;
+}
+
+.MenuItem {
+  display: flex;
+  grid-column-gap: 1vw;
+  align-items: center;
+
+  font-size: 0.751vw;
+  padding: 0vw 1vw;
+}
+
+.MenuItem.Active {
+  background: aliceblue;
+}
+
+.MenuItem:hover {
+  background-color: ghostwhite;
+}

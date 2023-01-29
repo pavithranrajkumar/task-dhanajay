@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import classes from './Sidebar.module.css';
+import classes from './MainSidebar.module.css';
 import MenuIcon from '../../assets/SampleIcon.svg';
 import ToggleIcon from '../../assets/ToggleIcon.png';
 
@@ -15,7 +15,7 @@ const SAMPLE_ROUTES = [
   { name: 'Dashboard5', route: '/dashboard5', id: 'dashboard5' },
 ];
 
-const Sidebar = () => {
+const MainSidebar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   // This function is used to open/hide the sidebar. For now I have hardcoded a fixed width
@@ -62,4 +62,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default MainSidebar;
