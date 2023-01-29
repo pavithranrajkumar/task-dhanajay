@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import classes from './PayoutsSidebar.module.css';
 import MenuIcon from '../../assets/SampleIcon.svg';
-import ToggleIcon from '../../assets/ToggleIcon.png';
 
 /**
  *These are dummy routes,which will be replaced by respective links, routes later (or) these can be 
@@ -28,6 +27,10 @@ const PayoutsSidebar = () => {
         {/* For each route,link sidebar is populated with an icon, and the respective link  */}
         <div className={classes.MenuContainer}>
           {SAMPLE_ROUTES.map((route) => (
+            /**
+             * Active class is used to differentiate the current active
+             * link with a different css
+             */
             <div
               className={`${classes.MenuItem} 
                   ${route.id === activeLink ? classes.Active : ''}`}
